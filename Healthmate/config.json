@@ -1,0 +1,8 @@
+{
+    "disease_file": "diseases.json",
+    "output_dir": "output",
+    "spacy_model": "en_core_web_sm",
+    "qa_model": "distilbert-base-uncased-distilled-squad",
+    "training_data_file": "training_data.spacy",
+    "config_path": "base_config.cfg"
+}

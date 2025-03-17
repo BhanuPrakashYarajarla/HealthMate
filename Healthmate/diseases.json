@@ -1,0 +1,92 @@
+{
+    "diseases": [
+        {
+            "name": "Flu",
+            "type": "disease",
+            "symptoms": ["fever", "cough", "sore throat"],
+            "causes": "virus",
+            "treatment": "rest and fluids",
+            "prevention": "vaccination"
+        },
+        {
+            "name": "Common Cold",
+            "type": "disease",
+            "symptoms": ["runny nose", "sneezing", "congestion"],
+            "causes": "virus",
+            "treatment": "rest and hydration",
+            "prevention": "hand washing"
+        },
+        {
+            "name": "Malaria",
+            "type": "disease",
+            "symptoms": ["fever", "chills", "sweating"],
+            "causes": "parasite (via mosquito bites)",
+            "treatment": "antimalarial drugs",
+            "prevention": "mosquito nets and repellents"
+        },
+        {
+            "name": "Tuberculosis",
+            "type": "disease",
+            "symptoms": ["cough", "weight loss", "night sweats"],
+            "causes": "bacteria",
+            "treatment": "antibiotics",
+            "prevention": "vaccination (BCG)"
+        },
+        {
+            "name": "Diabetes",
+            "type": "disease",
+            "symptoms": ["increased thirst", "frequent urination", "fatigue"],
+            "causes": "insulin imbalance",
+            "treatment": "insulin therapy or medication",
+            "prevention": "healthy diet and exercise"
+        },
+        {
+            "name": "Pneumonia",
+            "type": "disease",
+            "symptoms": ["cough", "fever", "difficulty breathing"],
+            "causes": "bacteria or virus",
+            "treatment": "antibiotics or antivirals",
+            "prevention": "vaccination"
+        },
+        {
+            "name": "Hepatitis B",
+            "type": "disease",
+            "symptoms": ["jaundice", "fatigue", "abdominal pain"],
+            "causes": "virus",
+            "treatment": "antiviral medication",
+            "prevention": "vaccination"
+        },
+        {
+            "name": "Cholera",
+            "type": "disease",
+            "symptoms": ["diarrhea", "vomiting", "dehydration"],
+            "causes": "bacteria (contaminated water)",
+            "treatment": "rehydration therapy",
+            "prevention": "clean water and sanitation"
+        },
+        {
+            "name": "Measles",
+            "type": "disease",
+            "symptoms": ["fever", "rash", "cough"],
+            "causes": "virus",
+            "treatment": "supportive care",
+            "prevention": "vaccination (MMR)"
+        },
+        {
+            "name": "Hypertension",
+            "type": "disease",
+            "symptoms": ["headaches", "dizziness", "none (often asymptomatic)"],
+            "causes": "genetics or lifestyle",
+            "treatment": "medication and lifestyle changes",
+            "prevention": "healthy diet and exercise"
+        },
+        {
+            "name": "Dengue Fever",
+            "type": "disease",
+            "symptoms": ["high fever", "joint pain", "rash"],
+            "causes": "virus (via mosquito bites)",
+            "treatment": "supportive care",
+            "prevention": "mosquito control"
+        }
+    ]
+}
