@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Medical Chatbot</title>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            text-align: center;
+            height: auto;
+        }
+
+        .navbar {
+            background-color: rgb(103, 215, 103);
+            width: auto;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+
+        .navbar p {
+            color: white;
+            font-family: 'Merriweather', serif;
+            font-size: 40px;
+            position: relative;
+            left: 30px;
+        }
+
+        .navbar button {
+            background: white;
+            color: green;
+            font-size: 20px;
+            width: 100px;
+            height: 50px;
+            border-radius: 20px;
+            border: rgb(255, 255, 255) 2px solid;
+            cursor: pointer;
+            margin: 0 20px;
+            position: relative;
+        }
+
+        .navbar button:hover {
+            border: rgb(9, 171, 69) 2px solid;
+        }
+
+        .search-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .search-container input {
+            width: 300px;
+            padding: 10px;
+            border: 2px solid green;
+            border-radius: 25px;
+            outline: none;
+            font-size: 16px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .search-container input:focus {
+            width: 350px;
+            border-color: darkgreen;
+            box-shadow: 0 0 10px rgba(0, 128, 0, 0.5);
+        }
+
+        .search-container button {
+            margin-left: 10px;
+            padding: 10px 15px;
+            border-radius: 25px;
+            border: 2px solid green;
+            background-color: white;
+            color: green;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .search-container button:hover {
+            background-color: green;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <p>HealthMate</p>
+        <div>
+            <button><b>Home</b></button>
+            <button><b>About</b></button>
+        </div>
+    </div>
+    <h1 class="Merriweather" style="font-weight: 900; color: green;">Medical Chatbot</h1>
+    <div class="search-container">
+        <input type="text" id="message" placeholder="Enter the disease name..">
+        <button id="sendButton">Send</button>
+    </div>
+    <div id="response"></div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html> 
