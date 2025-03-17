@@ -1,1 +1,6 @@
 # HealthMate
+The Medical Chatbot is a web-based application designed to assist users in identifying potential diseases based on symptoms and providing detailed information about various medical conditions. Built using Flask, a lightweight Python web framework, this project integrates natural language processing (NLP) capabilities, fuzzy matching for symptom-disease mapping, and a user-friendly interface to deliver an interactive experience. A key feature of the chatbot is its ability to display disease-related information in a structured table format, accompanied by relevant images stored in the application's diseases.json file, enhancing the visual understanding of medical conditions.
+
+Purpose:
+
+The primary goal of the Medical Chatbot is to provide an accessible tool for users to learn about diseases, their symptoms, causes, treatments, and prevention methods. By allowing users to input symptoms or ask questions, the chatbot leverages NLP and machine learning to match user queries with a preloaded dataset of diseases and respond with detailed, organized information. The inclusion of images alongside disease data makes the output more engaging and informative, catering to educational purposes, preliminary self-assessment, or general health awareness.
